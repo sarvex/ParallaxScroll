@@ -5,12 +5,12 @@ android {
         versionCode 5
         versionName '1.5'
 
-        minSdkVersion 8
-        targetSdkVersion 19
+        minSdkVersion 17
+        targetSdkVersion 22
     }
 
-    compileSdkVersion 19
-    buildToolsVersion '19.0.2'
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
 
     sourceSets {
         main {
@@ -35,5 +35,5 @@ android {
 dependencies {
     // internal deps (the sub projects dependencies are transitive to this one)
     compile project(':ParallaxScroll')
-    compile 'com.android.support:support-v4:19.0.1'
+    compile 'com.android.support:support-v4:22.2.0'
 }
